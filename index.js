@@ -2,7 +2,7 @@
 const express = require("express")
 const mongoose = require("mongoose")
 const cors = require("cors")
-const app = express().
+const app = express()
 app.use(cors())
 app.use(express.json())
 mongoose.connect("mongodb+srv://talhazafarmustafa_db_user:talhazafarmustafa_db_user@cluster0.hwtwub1.mongodb.net/")
